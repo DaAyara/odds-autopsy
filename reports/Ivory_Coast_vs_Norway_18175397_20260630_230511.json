@@ -429,5 +429,10 @@
         "score": {}
       }
     }
-  ]
+  ],
+  "solana": {
+    "signature": "mLHDTp2dcpjswgof1ZwMfKtoMx9eDGsyjuaMT8BJ1GXepuFLgrSmeVMGAfiYzvJqQnPPcDcyi5PrTVa4wzw4nnG",
+    "hash": "477891761f17ea28c8bec05c2d28ddc9fadcf3c60047ec9b45322854ad0438d9",
+    "memo": "odds-autopsy:477891761f17ea28"
+  }
 }

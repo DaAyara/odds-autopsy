@@ -21,6 +21,13 @@ function App() {
           return true;
         });
         setReports(unique);
+        if (unique.length > 0) {
+          const latest = unique[unique.length - 1];
+          setSelected(latest);
+          fetch(`${API}/api/reports/${latest}`)
+            .then(r => r.json())
+            .then(d => setReport(d));
+        }
       });
   }, []);
 
@@ -98,9 +105,19 @@ function App() {
             <div style={{ fontSize: 24, fontWeight: 700, color: "#fff", marginBottom: 4 }}>
               {report.fixture.name}
             </div>
-            <div style={{ fontSize: 13, color: "#888", marginBottom: 24 }}>
+            <div style={{ fontSize: 13, color: "#888", marginBottom: 8 }}>
               {report.fixture.competition} - {report.total_odds_updates} odds updates - {report.total_shifts_detected} shifts detected
             </div>
+            {report.solana && (
+              <a
+                href={`https://solscan.io/tx/${report.solana.signature}`}
+                target="_blank"
+                rel="noreferrer"
+                style={{ fontSize: 12, color: "#50fa7b", textDecoration: "none", display: "inline-block", marginBottom: 24, background: "#1a2a1a", padding: "4px 12px", borderRadius: 6, border: "1px solid #50fa7b33" }}
+              >
+                anchored on solana - {report.solana.hash.slice(0, 16)}... view on solscan
+              </a>
+            )}
 
             <div style={{ display: "flex", gap: 16, marginBottom: 32 }}>
               {[

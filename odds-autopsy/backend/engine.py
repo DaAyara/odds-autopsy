@@ -77,7 +77,8 @@ def map_shifts_to_events(shifts, score_updates):
                 nearest_gap = gap
                 nearest_event = event
         entry = dict(shift)
-        entry['nearest_event_gap_seconds'] = round(nearest_gap / 1000, 1)
+        gap_seconds = round(nearest_gap / 1000, 1)
+        entry['nearest_event_gap_seconds'] = None if gap_seconds == float('inf') else gap_seconds
         entry['nearest_event'] = nearest_event
         annotated.append(entry)
 
