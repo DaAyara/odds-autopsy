@@ -1,0 +1,29 @@
+{
+  "dependencies": {
+    "@coral-xyz/anchor": "^0.32.1",
+    "@solana/spl-token": "^0.4.14",
+    "@solana/web3.js": "^1.98.4",
+    "axios": "^1.18.1",
+    "bs58": "^6.0.0",
+    "tweetnacl": "^1.0.3"
+  },
+  "name": "odds-autopsy",
+  "version": "1.0.0",
+  "description": "A forensic engine that tracks how World Cup betting odds moved during each match, finds the moments that caused the biggest shifts, and produces a structured post match report anchored on Solana.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DaAyara/odds-autopsy.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/DaAyara/odds-autopsy/issues"
+  },
+  "homepage": "https://github.com/DaAyara/odds-autopsy#readme"
+}
