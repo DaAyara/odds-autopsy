@@ -58,7 +58,7 @@ backend_server.py    serves reports to the frontend
 
 ## Demo
 
-Watch the demo video: [link]
+Watch the demo video: https://youtu.be/GYd94R1U0Y0
 
 Live dashboard: https://odds-autopsy.vercel.app
 
