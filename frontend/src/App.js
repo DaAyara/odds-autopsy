@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { BarChart, Bar, XAxis, YAxis, Tooltip, ResponsiveContainer, Cell } from "recharts";
 
-const API = "";
+const API = process.env.REACT_APP_BACKEND_URL || "";
 
 function App() {
   const [reports, setReports] = useState([]);
