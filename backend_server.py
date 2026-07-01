@@ -52,6 +52,7 @@ class Handler(BaseHTTPRequestHandler):
         pass
 
 if __name__ == '__main__':
-    server = HTTPServer(('0.0.0.0', 5050), Handler)
-    print('Server running on port 5050')
+    port = int(os.environ.get('PORT', 5050))
+    server = HTTPServer(('0.0.0.0', port), Handler)
+    print(f'Server running on port {port}')
     server.serve_forever()
