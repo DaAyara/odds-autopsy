@@ -54,6 +54,7 @@ function App() {
     ? report.top_20_shifts.map((s, i) => ({
         name: `${s.time_readable}`,
         shift: s.abs_shift,
+        abs_shift: s.abs_shift,
         direction: s.shift > 0 ? "up" : "down",
         market: formatMarket(s.market),
         label: s.label,
@@ -71,7 +72,13 @@ function App() {
         <div style={{ fontSize: 12, color: "#888", marginBottom: 24 }}>World Cup forensic reports</div>
         {reports.map(r => {
           const parts = r.replace(".json", "").split("_");
-          const label = parts.slice(0, -3).join(" ");
+          const raw = parts.slice(0, -3).join(" ");
+          const label = raw.replace(/_/g, " ");
+          const datePart = parts[parts.length - 1].replace(".json", "").split("_")[0];
+          const dateLabel = datePart
+            ? `${datePart.slice(0, 4)}-${datePart.slice(4, 6)}-${datePart.slice(6, 8)}`
+            : "";
+
           return (
             <div
               key={r}
@@ -83,11 +90,14 @@ function App() {
                 cursor: "pointer",
                 background: selected === r ? "#2a2d3a" : "transparent",
                 border: selected === r ? "1px solid #4a9eff" : "1px solid transparent",
-                fontSize: 13,
-                color: selected === r ? "#4a9eff" : "#ccc"
               }}
             >
-              {label}
+              <div style={{ fontSize: 13, color: selected === r ? "#4a9eff" : "#ccc" }}>
+                {label}
+              </div>
+              <div style={{ fontSize: 11, color: "#555", marginTop: 3 }}>
+                {dateLabel}
+              </div>
             </div>
           );
         })}
@@ -140,7 +150,9 @@ function App() {
                   <XAxis dataKey="name" tick={{ fontSize: 10, fill: "#666" }} />
                   <YAxis tick={{ fontSize: 10, fill: "#666" }} />
                   <Tooltip
-                    contentStyle={{ background: "#1a1d27", border: "1px solid #2a2d3a", borderRadius: 8, fontSize: 12 }}
+                    contentStyle={{ background: "#ffffff", border: "1px solid #2a2d3a", borderRadius: 8, fontSize: 12, color: "#111111" }}
+                    labelStyle={{ color: "#111111", fontWeight: 600 }}
+                    itemStyle={{ color: "#111111" }}
                     formatter={(value, name, props) => [
                       `${value} (${props.payload.market} - ${props.payload.label})`,
                       "Shift size"
@@ -148,7 +160,7 @@ function App() {
                   />
                   <Bar dataKey="shift" radius={[4, 4, 0, 0]}>
                     {chartData.map((entry, i) => (
-                      <Cell key={i} fill={entry.direction === "up" ? "#4a9eff" : "#ff6b6b"} />
+                      <Cell key={i} fill={entry.abs_shift === 0 ? "#444" : entry.direction === "up" ? "#4a9eff" : "#ff6b6b"} />
                     ))}
                   </Bar>
                 </BarChart>
@@ -174,7 +186,12 @@ function App() {
                   {report.top_20_shifts.map((s, i) => (
                     <tr key={i} style={{ borderBottom: "1px solid #1e2130", color: i % 2 === 0 ? "#ccc" : "#bbb" }}>
                       <td style={{ padding: "8px 12px" }}>{s.time_readable}</td>
-                      <td style={{ padding: "8px 12px" }}>{formatMarket(s.market)}</td>
+                      <td style={{ padding: "8px 12px" }}>
+                        {formatMarket(s.market)}
+                        <span style={{ marginLeft: 6, fontSize: 10, padding: "2px 6px", borderRadius: 4, background: s.in_running ? "#1a3a1a" : "#1a1a3a", color: s.in_running ? "#50fa7b" : "#4a9eff" }}>
+                          {s.in_running ? "in play" : "pre match"}
+                        </span>
+                      </td>
                       <td style={{ padding: "8px 12px" }}>{s.label}</td>
                       <td style={{ padding: "8px 12px", textAlign: "right" }}>{s.from_odds}</td>
                       <td style={{ padding: "8px 12px", textAlign: "right" }}>{s.to_odds}</td>
