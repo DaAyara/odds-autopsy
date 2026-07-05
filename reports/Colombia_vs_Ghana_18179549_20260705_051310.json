@@ -1,0 +1,699 @@
+{
+  "fixture": {
+    "fixture_id": 18179549,
+    "name": "Colombia vs Ghana",
+    "competition": "World Cup",
+    "epoch_day": 20638
+  },
+  "total_odds_updates": 3292,
+  "total_score_updates": 79,
+  "total_shifts_detected": 1342,
+  "top_20_shifts": [
+    {
+      "ts": 1783130625112,
+      "time_readable": "02:03:45",
+      "market": "1X2_PARTICIPANT_RESULT",
+      "parameters": null,
+      "in_running": true,
+      "label": "part2",
+      "from_odds": 160.0,
+      "to_odds": 36.0,
+      "shift": -124.0,
+      "abs_shift": 124.0,
+      "nearest_event_gap_seconds": 20.4,
+      "nearest_event": {
+        "ts": 1783130604688,
+        "time_readable": "02:03:24",
+        "status_id": 2,
+        "game_state": "scheduled",
+        "clock_seconds": 1963,
+        "score": {
+          "Participant1": {
+            "H1": {
+              "Goals": 1,
+              "YellowCards": 1,
+              "Corners": 1
+            },
+            "HT": {
+              "Goals": 1,
+              "YellowCards": 1,
+              "Corners": 1
+            },
+            "Total": {
+              "Goals": 1,
+              "YellowCards": 1,
+              "Corners": 1
+            }
+          },
+          "Participant2": {
+            "H1": {
+              "Corners": 1
+            },
+            "HT": {
+              "Corners": 1
+            },
+            "Total": {
+              "Corners": 1
+            }
+          }
+        }
+      }
+    },
+    {
+      "ts": 1783130627345,
+      "time_readable": "02:03:47",
+      "market": "1X2_PARTICIPANT_RESULT",
+      "parameters": null,
+      "in_running": true,
+      "label": "part2",
+      "from_odds": 36.0,
+      "to_odds": 160.0,
+      "shift": 124.0,
+      "abs_shift": 124.0,
+      "nearest_event_gap_seconds": 21.3,
+      "nearest_event": {
+        "ts": 1783130648625,
+        "time_readable": "02:04:08",
+        "status_id": 2,
+        "game_state": "scheduled",
+        "clock_seconds": 2029,
+        "score": {}
+      }
+    },
+    {
+      "ts": 1783130616874,
+      "time_readable": "02:03:36",
+      "market": "1X2_PARTICIPANT_RESULT",
+      "parameters": null,
+      "in_running": true,
+      "label": "part2",
+      "from_odds": 36.1,
+      "to_odds": 160.0,
+      "shift": 123.9,
+      "abs_shift": 123.9,
+      "nearest_event_gap_seconds": 12.2,
+      "nearest_event": {
+        "ts": 1783130604688,
+        "time_readable": "02:03:24",
+        "status_id": 2,
+        "game_state": "scheduled",
+        "clock_seconds": 1963,
+        "score": {
+          "Participant1": {
+            "H1": {
+              "Goals": 1,
+              "YellowCards": 1,
+              "Corners": 1
+            },
+            "HT": {
+              "Goals": 1,
+              "YellowCards": 1,
+              "Corners": 1
+            },
+            "Total": {
+              "Goals": 1,
+              "YellowCards": 1,
+              "Corners": 1
+            }
+          },
+          "Participant2": {
+            "H1": {
+              "Corners": 1
+            },
+            "HT": {
+              "Corners": 1
+            },
+            "Total": {
+              "Corners": 1
+            }
+          }
+        }
+      }
+    },
+    {
+      "ts": 1783130617353,
+      "time_readable": "02:03:37",
+      "market": "1X2_PARTICIPANT_RESULT",
+      "parameters": null,
+      "in_running": true,
+      "label": "part2",
+      "from_odds": 36.1,
+      "to_odds": 160.0,
+      "shift": 123.9,
+      "abs_shift": 123.9,
+      "nearest_event_gap_seconds": 12.7,
+      "nearest_event": {
+        "ts": 1783130604688,
+        "time_readable": "02:03:24",
+        "status_id": 2,
+        "game_state": "scheduled",
+        "clock_seconds": 1963,
+        "score": {
+          "Participant1": {
+            "H1": {
+              "Goals": 1,
+              "YellowCards": 1,
+              "Corners": 1
+            },
+            "HT": {
+              "Goals": 1,
+              "YellowCards": 1,
+              "Corners": 1
+            },
+            "Total": {
+              "Goals": 1,
+              "YellowCards": 1,
+              "Corners": 1
+            }
+          },
+          "Participant2": {
+            "H1": {
+              "Corners": 1
+            },
+            "HT": {
+              "Corners": 1
+            },
+            "Total": {
+              "Corners": 1
+            }
+          }
+        }
+      }
+    },
+    {
+      "ts": 1783130627345,
+      "time_readable": "02:03:47",
+      "market": "1X2_PARTICIPANT_RESULT",
+      "parameters": null,
+      "in_running": true,
+      "label": "part2",
+      "from_odds": 160.0,
+      "to_odds": 36.3,
+      "shift": -123.7,
+      "abs_shift": 123.7,
+      "nearest_event_gap_seconds": 21.3,
+      "nearest_event": {
+        "ts": 1783130648625,
+        "time_readable": "02:04:08",
+        "status_id": 2,
+        "game_state": "scheduled",
+        "clock_seconds": 2029,
+        "score": {}
+      }
+    },
+    {
+      "ts": 1783130617284,
+      "time_readable": "02:03:37",
+      "market": "1X2_PARTICIPANT_RESULT",
+      "parameters": null,
+      "in_running": true,
+      "label": "part2",
+      "from_odds": 160.0,
+      "to_odds": 36.4,
+      "shift": -123.6,
+      "abs_shift": 123.6,
+      "nearest_event_gap_seconds": 12.6,
+      "nearest_event": {
+        "ts": 1783130604688,
+        "time_readable": "02:03:24",
+        "status_id": 2,
+        "game_state": "scheduled",
+        "clock_seconds": 1963,
+        "score": {
+          "Participant1": {
+            "H1": {
+              "Goals": 1,
+              "YellowCards": 1,
+              "Corners": 1
+            },
+            "HT": {
+              "Goals": 1,
+              "YellowCards": 1,
+              "Corners": 1
+            },
+            "Total": {
+              "Goals": 1,
+              "YellowCards": 1,
+              "Corners": 1
+            }
+          },
+          "Participant2": {
+            "H1": {
+              "Corners": 1
+            },
+            "HT": {
+              "Corners": 1
+            },
+            "Total": {
+              "Corners": 1
+            }
+          }
+        }
+      }
+    },
+    {
+      "ts": 1783130622190,
+      "time_readable": "02:03:42",
+      "market": "1X2_PARTICIPANT_RESULT",
+      "parameters": null,
+      "in_running": true,
+      "label": "part2",
+      "from_odds": 160.0,
+      "to_odds": 36.4,
+      "shift": -123.6,
+      "abs_shift": 123.6,
+      "nearest_event_gap_seconds": 17.5,
+      "nearest_event": {
+        "ts": 1783130604688,
+        "time_readable": "02:03:24",
+        "status_id": 2,
+        "game_state": "scheduled",
+        "clock_seconds": 1963,
+        "score": {
+          "Participant1": {
+            "H1": {
+              "Goals": 1,
+              "YellowCards": 1,
+              "Corners": 1
+            },
+            "HT": {
+              "Goals": 1,
+              "YellowCards": 1,
+              "Corners": 1
+            },
+            "Total": {
+              "Goals": 1,
+              "YellowCards": 1,
+              "Corners": 1
+            }
+          },
+          "Participant2": {
+            "H1": {
+              "Corners": 1
+            },
+            "HT": {
+              "Corners": 1
+            },
+            "Total": {
+              "Corners": 1
+            }
+          }
+        }
+      }
+    },
+    {
+      "ts": 1783130622341,
+      "time_readable": "02:03:42",
+      "market": "1X2_PARTICIPANT_RESULT",
+      "parameters": null,
+      "in_running": true,
+      "label": "part2",
+      "from_odds": 36.4,
+      "to_odds": 160.0,
+      "shift": 123.6,
+      "abs_shift": 123.6,
+      "nearest_event_gap_seconds": 17.7,
+      "nearest_event": {
+        "ts": 1783130604688,
+        "time_readable": "02:03:24",
+        "status_id": 2,
+        "game_state": "scheduled",
+        "clock_seconds": 1963,
+        "score": {
+          "Participant1": {
+            "H1": {
+              "Goals": 1,
+              "YellowCards": 1,
+              "Corners": 1
+            },
+            "HT": {
+              "Goals": 1,
+              "YellowCards": 1,
+              "Corners": 1
+            },
+            "Total": {
+              "Goals": 1,
+              "YellowCards": 1,
+              "Corners": 1
+            }
+          },
+          "Participant2": {
+            "H1": {
+              "Corners": 1
+            },
+            "HT": {
+              "Corners": 1
+            },
+            "Total": {
+              "Corners": 1
+            }
+          }
+        }
+      }
+    },
+    {
+      "ts": 1783130607278,
+      "time_readable": "02:03:27",
+      "market": "1X2_PARTICIPANT_RESULT",
+      "parameters": null,
+      "in_running": true,
+      "label": "part2",
+      "from_odds": 160.0,
+      "to_odds": 36.5,
+      "shift": -123.5,
+      "abs_shift": 123.5,
+      "nearest_event_gap_seconds": 2.6,
+      "nearest_event": {
+        "ts": 1783130604688,
+        "time_readable": "02:03:24",
+        "status_id": 2,
+        "game_state": "scheduled",
+        "clock_seconds": 1963,
+        "score": {
+          "Participant1": {
+            "H1": {
+              "Goals": 1,
+              "YellowCards": 1,
+              "Corners": 1
+            },
+            "HT": {
+              "Goals": 1,
+              "YellowCards": 1,
+              "Corners": 1
+            },
+            "Total": {
+              "Goals": 1,
+              "YellowCards": 1,
+              "Corners": 1
+            }
+          },
+          "Participant2": {
+            "H1": {
+              "Corners": 1
+            },
+            "HT": {
+              "Corners": 1
+            },
+            "Total": {
+              "Corners": 1
+            }
+          }
+        }
+      }
+    },
+    {
+      "ts": 1783130602380,
+      "time_readable": "02:03:22",
+      "market": "1X2_PARTICIPANT_RESULT",
+      "parameters": null,
+      "in_running": true,
+      "label": "part2",
+      "from_odds": 160.0,
+      "to_odds": 37.5,
+      "shift": -122.5,
+      "abs_shift": 122.5,
+      "nearest_event_gap_seconds": 2.3,
+      "nearest_event": {
+        "ts": 1783130604688,
+        "time_readable": "02:03:24",
+        "status_id": 2,
+        "game_state": "scheduled",
+        "clock_seconds": 1963,
+        "score": {
+          "Participant1": {
+            "H1": {
+              "Goals": 1,
+              "YellowCards": 1,
+              "Corners": 1
+            },
+            "HT": {
+              "Goals": 1,
+              "YellowCards": 1,
+              "Corners": 1
+            },
+            "Total": {
+              "Goals": 1,
+              "YellowCards": 1,
+              "Corners": 1
+            }
+          },
+          "Participant2": {
+            "H1": {
+              "Corners": 1
+            },
+            "HT": {
+              "Corners": 1
+            },
+            "Total": {
+              "Corners": 1
+            }
+          }
+        }
+      }
+    },
+    {
+      "ts": 1783130598378,
+      "time_readable": "02:03:18",
+      "market": "1X2_PARTICIPANT_RESULT",
+      "parameters": null,
+      "in_running": true,
+      "label": "part2",
+      "from_odds": 37.7,
+      "to_odds": 160.0,
+      "shift": 122.3,
+      "abs_shift": 122.3,
+      "nearest_event_gap_seconds": 6.3,
+      "nearest_event": {
+        "ts": 1783130604688,
+        "time_readable": "02:03:24",
+        "status_id": 2,
+        "game_state": "scheduled",
+        "clock_seconds": 1963,
+        "score": {
+          "Participant1": {
+            "H1": {
+              "Goals": 1,
+              "YellowCards": 1,
+              "Corners": 1
+            },
+            "HT": {
+              "Goals": 1,
+              "YellowCards": 1,
+              "Corners": 1
+            },
+            "Total": {
+              "Goals": 1,
+              "YellowCards": 1,
+              "Corners": 1
+            }
+          },
+          "Participant2": {
+            "H1": {
+              "Corners": 1
+            },
+            "HT": {
+              "Corners": 1
+            },
+            "Total": {
+              "Corners": 1
+            }
+          }
+        }
+      }
+    },
+    {
+      "ts": 1783130529861,
+      "time_readable": "02:02:09",
+      "market": "1X2_PARTICIPANT_RESULT",
+      "parameters": null,
+      "in_running": true,
+      "label": "part2",
+      "from_odds": 35.8,
+      "to_odds": 150.0,
+      "shift": 114.2,
+      "abs_shift": 114.2,
+      "nearest_event_gap_seconds": 1.7,
+      "nearest_event": {
+        "ts": 1783130528169,
+        "time_readable": "02:02:08",
+        "status_id": 2,
+        "game_state": "scheduled",
+        "clock_seconds": 1908,
+        "score": {}
+      }
+    },
+    {
+      "ts": 1783130686641,
+      "time_readable": "02:04:46",
+      "market": "1X2_PARTICIPANT_RESULT",
+      "parameters": null,
+      "in_running": true,
+      "label": "part2",
+      "from_odds": 35.9,
+      "to_odds": 150.0,
+      "shift": 114.1,
+      "abs_shift": 114.1,
+      "nearest_event_gap_seconds": 1.8,
+      "nearest_event": {
+        "ts": 1783130684817,
+        "time_readable": "02:04:44",
+        "status_id": 2,
+        "game_state": "scheduled",
+        "clock_seconds": 2065,
+        "score": {}
+      }
+    },
+    {
+      "ts": 1783130690644,
+      "time_readable": "02:04:50",
+      "market": "1X2_PARTICIPANT_RESULT",
+      "parameters": null,
+      "in_running": true,
+      "label": "part2",
+      "from_odds": 150.0,
+      "to_odds": 36.0,
+      "shift": -114.0,
+      "abs_shift": 114.0,
+      "nearest_event_gap_seconds": 3.4,
+      "nearest_event": {
+        "ts": 1783130694066,
+        "time_readable": "02:04:54",
+        "status_id": 2,
+        "game_state": "scheduled",
+        "clock_seconds": 2075,
+        "score": {}
+      }
+    },
+    {
+      "ts": 1783130575092,
+      "time_readable": "02:02:55",
+      "market": "1X2_PARTICIPANT_RESULT",
+      "parameters": null,
+      "in_running": true,
+      "label": "part2",
+      "from_odds": 150.0,
+      "to_odds": 36.1,
+      "shift": -113.9,
+      "abs_shift": 113.9,
+      "nearest_event_gap_seconds": 2.8,
+      "nearest_event": {
+        "ts": 1783130577875,
+        "time_readable": "02:02:57",
+        "status_id": 2,
+        "game_state": "scheduled",
+        "clock_seconds": 1959,
+        "score": {}
+      }
+    },
+    {
+      "ts": 1783130629112,
+      "time_readable": "02:03:49",
+      "market": "1X2_PARTICIPANT_RESULT",
+      "parameters": null,
+      "in_running": true,
+      "label": "part2",
+      "from_odds": 150.0,
+      "to_odds": 36.1,
+      "shift": -113.9,
+      "abs_shift": 113.9,
+      "nearest_event_gap_seconds": 19.5,
+      "nearest_event": {
+        "ts": 1783130648625,
+        "time_readable": "02:04:08",
+        "status_id": 2,
+        "game_state": "scheduled",
+        "clock_seconds": 2029,
+        "score": {}
+      }
+    },
+    {
+      "ts": 1783130632639,
+      "time_readable": "02:03:52",
+      "market": "1X2_PARTICIPANT_RESULT",
+      "parameters": null,
+      "in_running": true,
+      "label": "part2",
+      "from_odds": 36.1,
+      "to_odds": 150.0,
+      "shift": 113.9,
+      "abs_shift": 113.9,
+      "nearest_event_gap_seconds": 16.0,
+      "nearest_event": {
+        "ts": 1783130648625,
+        "time_readable": "02:04:08",
+        "status_id": 2,
+        "game_state": "scheduled",
+        "clock_seconds": 2029,
+        "score": {}
+      }
+    },
+    {
+      "ts": 1783130532077,
+      "time_readable": "02:02:12",
+      "market": "1X2_PARTICIPANT_RESULT",
+      "parameters": null,
+      "in_running": true,
+      "label": "part2",
+      "from_odds": 150.0,
+      "to_odds": 36.2,
+      "shift": -113.8,
+      "abs_shift": 113.8,
+      "nearest_event_gap_seconds": 0.3,
+      "nearest_event": {
+        "ts": 1783130531822,
+        "time_readable": "02:02:11",
+        "status_id": 2,
+        "game_state": "scheduled",
+        "clock_seconds": 1912,
+        "score": {}
+      }
+    },
+    {
+      "ts": 1783130532077,
+      "time_readable": "02:02:12",
+      "market": "1X2_PARTICIPANT_RESULT",
+      "parameters": null,
+      "in_running": true,
+      "label": "part2",
+      "from_odds": 36.2,
+      "to_odds": 150.0,
+      "shift": 113.8,
+      "abs_shift": 113.8,
+      "nearest_event_gap_seconds": 0.3,
+      "nearest_event": {
+        "ts": 1783130531822,
+        "time_readable": "02:02:11",
+        "status_id": 2,
+        "game_state": "scheduled",
+        "clock_seconds": 1912,
+        "score": {}
+      }
+    },
+    {
+      "ts": 1783130636637,
+      "time_readable": "02:03:56",
+      "market": "1X2_PARTICIPANT_RESULT",
+      "parameters": null,
+      "in_running": true,
+      "label": "part2",
+      "from_odds": 150.0,
+      "to_odds": 36.2,
+      "shift": -113.8,
+      "abs_shift": 113.8,
+      "nearest_event_gap_seconds": 12.0,
+      "nearest_event": {
+        "ts": 1783130648625,
+        "time_readable": "02:04:08",
+        "status_id": 2,
+        "game_state": "scheduled",
+        "clock_seconds": 2029,
+        "score": {}
+      }
+    }
+  ],
+  "solana": {
+    "signature": "664K22bXp527MvqAwvSHhFcTEzN2v4n45CS1bEkvGsyj2GDXynrqxLbzoLsXW41oTd1bsZZzcAhqGYpy8vZZxUXW",
+    "hash": "c48171a10f7303bf98505ff7383315fbab81c6f259d65f45d41e0fb713b82297",
+    "memo": "odds-autopsy:c48171a10f7303bf"
+  }
+}
