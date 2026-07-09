@@ -1,0 +1,450 @@
+{
+  "fixture": {
+    "fixture_id": 18193785,
+    "name": "USA vs Belgium",
+    "competition": "World Cup",
+    "epoch_day": 20641
+  },
+  "total_odds_updates": 8279,
+  "total_score_updates": 58,
+  "total_shifts_detected": 1990,
+  "top_20_shifts": [
+    {
+      "ts": 1783382681288,
+      "time_readable": "00:04:41",
+      "market": "OVERUNDER_PARTICIPANT_GOALS",
+      "parameters": "line=2.5",
+      "in_running": true,
+      "label": "over",
+      "from_odds": 1.926,
+      "to_odds": 9.929,
+      "shift": 8.003,
+      "abs_shift": 8.003,
+      "nearest_event_gap_seconds": 3.4,
+      "nearest_event": {
+        "ts": 1783382684685,
+        "time_readable": "00:04:44",
+        "status_id": 2,
+        "game_state": "scheduled",
+        "clock_seconds": 251,
+        "score": {}
+      }
+    },
+    {
+      "ts": 1783382665539,
+      "time_readable": "00:04:25",
+      "market": "OVERUNDER_PARTICIPANT_GOALS",
+      "parameters": "line=2.5",
+      "in_running": true,
+      "label": "over",
+      "from_odds": 1.916,
+      "to_odds": 9.888,
+      "shift": 7.972,
+      "abs_shift": 7.972,
+      "nearest_event_gap_seconds": 0.6,
+      "nearest_event": {
+        "ts": 1783382664971,
+        "time_readable": "00:04:24",
+        "status_id": 2,
+        "game_state": "scheduled",
+        "clock_seconds": 231,
+        "score": {}
+      }
+    },
+    {
+      "ts": 1783382670293,
+      "time_readable": "00:04:30",
+      "market": "OVERUNDER_PARTICIPANT_GOALS",
+      "parameters": "line=2.5",
+      "in_running": true,
+      "label": "over",
+      "from_odds": 9.888,
+      "to_odds": 1.919,
+      "shift": -7.969,
+      "abs_shift": 7.969,
+      "nearest_event_gap_seconds": 1.5,
+      "nearest_event": {
+        "ts": 1783382668825,
+        "time_readable": "00:04:28",
+        "status_id": 2,
+        "game_state": "scheduled",
+        "clock_seconds": 235,
+        "score": {}
+      }
+    },
+    {
+      "ts": 1783382682575,
+      "time_readable": "00:04:42",
+      "market": "OVERUNDER_PARTICIPANT_GOALS",
+      "parameters": "line=2.5",
+      "in_running": true,
+      "label": "over",
+      "from_odds": 9.295,
+      "to_odds": 1.918,
+      "shift": -7.377,
+      "abs_shift": 7.377,
+      "nearest_event_gap_seconds": 2.1,
+      "nearest_event": {
+        "ts": 1783382684685,
+        "time_readable": "00:04:44",
+        "status_id": 2,
+        "game_state": "scheduled",
+        "clock_seconds": 251,
+        "score": {}
+      }
+    },
+    {
+      "ts": 1783382620272,
+      "time_readable": "00:03:40",
+      "market": "OVERUNDER_PARTICIPANT_GOALS",
+      "parameters": "line=2.5",
+      "in_running": true,
+      "label": "over",
+      "from_odds": 1.91,
+      "to_odds": 9.222,
+      "shift": 7.312,
+      "abs_shift": 7.312,
+      "nearest_event_gap_seconds": 2.0,
+      "nearest_event": {
+        "ts": 1783382622290,
+        "time_readable": "00:03:42",
+        "status_id": 2,
+        "game_state": "scheduled",
+        "clock_seconds": 188,
+        "score": {}
+      }
+    },
+    {
+      "ts": 1783382629050,
+      "time_readable": "00:03:49",
+      "market": "OVERUNDER_PARTICIPANT_GOALS",
+      "parameters": "line=2.5",
+      "in_running": true,
+      "label": "over",
+      "from_odds": 9.222,
+      "to_odds": 1.919,
+      "shift": -7.303,
+      "abs_shift": 7.303,
+      "nearest_event_gap_seconds": 1.3,
+      "nearest_event": {
+        "ts": 1783382630356,
+        "time_readable": "00:03:50",
+        "status_id": 2,
+        "game_state": "scheduled",
+        "clock_seconds": 196,
+        "score": {}
+      }
+    },
+    {
+      "ts": 1783382580222,
+      "time_readable": "00:03:00",
+      "market": "OVERUNDER_PARTICIPANT_GOALS",
+      "parameters": "line=2.5",
+      "in_running": true,
+      "label": "over",
+      "from_odds": 1.894,
+      "to_odds": 9.185,
+      "shift": 7.291,
+      "abs_shift": 7.291,
+      "nearest_event_gap_seconds": 0.8,
+      "nearest_event": {
+        "ts": 1783382579425,
+        "time_readable": "00:02:59",
+        "status_id": 2,
+        "game_state": "scheduled",
+        "clock_seconds": 146,
+        "score": {}
+      }
+    },
+    {
+      "ts": 1783382580222,
+      "time_readable": "00:03:00",
+      "market": "OVERUNDER_PARTICIPANT_GOALS",
+      "parameters": "line=2.5",
+      "in_running": true,
+      "label": "over",
+      "from_odds": 9.185,
+      "to_odds": 1.895,
+      "shift": -7.29,
+      "abs_shift": 7.29,
+      "nearest_event_gap_seconds": 0.8,
+      "nearest_event": {
+        "ts": 1783382579425,
+        "time_readable": "00:02:59",
+        "status_id": 2,
+        "game_state": "scheduled",
+        "clock_seconds": 146,
+        "score": {}
+      }
+    },
+    {
+      "ts": 1783382570218,
+      "time_readable": "00:02:50",
+      "market": "OVERUNDER_PARTICIPANT_GOALS",
+      "parameters": "line=2.5",
+      "in_running": true,
+      "label": "over",
+      "from_odds": 1.894,
+      "to_odds": 8.926,
+      "shift": 7.032,
+      "abs_shift": 7.032,
+      "nearest_event_gap_seconds": 2.1,
+      "nearest_event": {
+        "ts": 1783382568150,
+        "time_readable": "00:02:48",
+        "status_id": 2,
+        "game_state": "scheduled",
+        "clock_seconds": 134,
+        "score": {}
+      }
+    },
+    {
+      "ts": 1783382576643,
+      "time_readable": "00:02:56",
+      "market": "OVERUNDER_PARTICIPANT_GOALS",
+      "parameters": "line=2.5",
+      "in_running": true,
+      "label": "over",
+      "from_odds": 8.926,
+      "to_odds": 1.894,
+      "shift": -7.032,
+      "abs_shift": 7.032,
+      "nearest_event_gap_seconds": 2.1,
+      "nearest_event": {
+        "ts": 1783382578762,
+        "time_readable": "00:02:58",
+        "status_id": 2,
+        "game_state": "scheduled",
+        "clock_seconds": 145,
+        "score": {}
+      }
+    },
+    {
+      "ts": 1783382570218,
+      "time_readable": "00:02:50",
+      "market": "OVERUNDER_PARTICIPANT_GOALS",
+      "parameters": "line=2.5",
+      "in_running": true,
+      "label": "over",
+      "from_odds": 8.926,
+      "to_odds": 1.895,
+      "shift": -7.031,
+      "abs_shift": 7.031,
+      "nearest_event_gap_seconds": 2.1,
+      "nearest_event": {
+        "ts": 1783382568150,
+        "time_readable": "00:02:48",
+        "status_id": 2,
+        "game_state": "scheduled",
+        "clock_seconds": 134,
+        "score": {}
+      }
+    },
+    {
+      "ts": 1783382575635,
+      "time_readable": "00:02:55",
+      "market": "OVERUNDER_PARTICIPANT_GOALS",
+      "parameters": "line=2.5",
+      "in_running": true,
+      "label": "over",
+      "from_odds": 1.9,
+      "to_odds": 8.926,
+      "shift": 7.026,
+      "abs_shift": 7.026,
+      "nearest_event_gap_seconds": 2.0,
+      "nearest_event": {
+        "ts": 1783382573651,
+        "time_readable": "00:02:53",
+        "status_id": 2,
+        "game_state": "scheduled",
+        "clock_seconds": 139,
+        "score": {}
+      }
+    },
+    {
+      "ts": 1783382554521,
+      "time_readable": "00:02:34",
+      "market": "OVERUNDER_PARTICIPANT_GOALS",
+      "parameters": "line=2.5",
+      "in_running": true,
+      "label": "over",
+      "from_odds": 8.888,
+      "to_odds": 1.9,
+      "shift": -6.988,
+      "abs_shift": 6.988,
+      "nearest_event_gap_seconds": 5.0,
+      "nearest_event": {
+        "ts": 1783382549472,
+        "time_readable": "00:02:29",
+        "status_id": 2,
+        "game_state": "scheduled",
+        "clock_seconds": 116,
+        "score": {}
+      }
+    },
+    {
+      "ts": 1783382554215,
+      "time_readable": "00:02:34",
+      "market": "OVERUNDER_PARTICIPANT_GOALS",
+      "parameters": "line=2.5",
+      "in_running": true,
+      "label": "over",
+      "from_odds": 1.906,
+      "to_odds": 8.888,
+      "shift": 6.982,
+      "abs_shift": 6.982,
+      "nearest_event_gap_seconds": 4.7,
+      "nearest_event": {
+        "ts": 1783382549472,
+        "time_readable": "00:02:29",
+        "status_id": 2,
+        "game_state": "scheduled",
+        "clock_seconds": 116,
+        "score": {}
+      }
+    },
+    {
+      "ts": 1783382573775,
+      "time_readable": "00:02:53",
+      "market": "OVERUNDER_PARTICIPANT_GOALS",
+      "parameters": "line=2.5",
+      "in_running": true,
+      "label": "over",
+      "from_odds": 1.894,
+      "to_odds": 8.416,
+      "shift": 6.522,
+      "abs_shift": 6.522,
+      "nearest_event_gap_seconds": 0.1,
+      "nearest_event": {
+        "ts": 1783382573651,
+        "time_readable": "00:02:53",
+        "status_id": 2,
+        "game_state": "scheduled",
+        "clock_seconds": 139,
+        "score": {}
+      }
+    },
+    {
+      "ts": 1783382573775,
+      "time_readable": "00:02:53",
+      "market": "OVERUNDER_PARTICIPANT_GOALS",
+      "parameters": "line=2.5",
+      "in_running": true,
+      "label": "over",
+      "from_odds": 8.416,
+      "to_odds": 1.9,
+      "shift": -6.516,
+      "abs_shift": 6.516,
+      "nearest_event_gap_seconds": 0.1,
+      "nearest_event": {
+        "ts": 1783382573651,
+        "time_readable": "00:02:53",
+        "status_id": 2,
+        "game_state": "scheduled",
+        "clock_seconds": 139,
+        "score": {}
+      }
+    },
+    {
+      "ts": 1783386030052,
+      "time_readable": "01:00:30",
+      "market": "1X2_PARTICIPANT_RESULT",
+      "parameters": null,
+      "in_running": true,
+      "label": "part1",
+      "from_odds": 2.773,
+      "to_odds": 9.061,
+      "shift": 6.288,
+      "abs_shift": 6.288,
+      "nearest_event_gap_seconds": 3330.7,
+      "nearest_event": {
+        "ts": 1783382699308,
+        "time_readable": "00:04:59",
+        "status_id": 2,
+        "game_state": "scheduled",
+        "clock_seconds": 265,
+        "score": {}
+      }
+    },
+    {
+      "ts": 1783386039576,
+      "time_readable": "01:00:39",
+      "market": "OVERUNDER_PARTICIPANT_GOALS",
+      "parameters": "line=4.5",
+      "in_running": true,
+      "label": "over",
+      "from_odds": 7.062,
+      "to_odds": 1.878,
+      "shift": -5.184,
+      "abs_shift": 5.184,
+      "nearest_event_gap_seconds": 3340.3,
+      "nearest_event": {
+        "ts": 1783382699308,
+        "time_readable": "00:04:59",
+        "status_id": 2,
+        "game_state": "scheduled",
+        "clock_seconds": 265,
+        "score": {}
+      }
+    },
+    {
+      "ts": 1783382491252,
+      "time_readable": "00:01:31",
+      "market": "OVERUNDER_PARTICIPANT_GOALS",
+      "parameters": "line=1.5",
+      "in_running": true,
+      "label": "under",
+      "from_odds": 4.819,
+      "to_odds": 1.447,
+      "shift": -3.372,
+      "abs_shift": 3.372,
+      "nearest_event_gap_seconds": 9.1,
+      "nearest_event": {
+        "ts": 1783382500360,
+        "time_readable": "00:01:40",
+        "status_id": 2,
+        "game_state": "scheduled",
+        "clock_seconds": 48,
+        "score": {
+          "Participant2": {
+            "H1": {
+              "Corners": 1
+            },
+            "HT": {
+              "Corners": 1
+            },
+            "Total": {
+              "Corners": 1
+            }
+          }
+        }
+      }
+    },
+    {
+      "ts": 1783382489173,
+      "time_readable": "00:01:29",
+      "market": "OVERUNDER_PARTICIPANT_GOALS",
+      "parameters": "line=1.5",
+      "in_running": true,
+      "label": "under",
+      "from_odds": 1.448,
+      "to_odds": 4.819,
+      "shift": 3.371,
+      "abs_shift": 3.371,
+      "nearest_event_gap_seconds": 7.1,
+      "nearest_event": {
+        "ts": 1783382482081,
+        "time_readable": "00:01:22",
+        "status_id": 2,
+        "game_state": "scheduled",
+        "clock_seconds": 48,
+        "score": {}
+      }
+    }
+  ],
+  "solana": {
+    "signature": "2o44LD3LnWohh6qcUNGAXUa2p4izn3WYe1hKuNZnCD7idndJpaVHbRS2nTGyutRFxa9KcZyipLJWzNd4P1sZkwx4",
+    "hash": "cf3977990dd97f6eb808530da22d7b5283cb6fa68ff4a3a6e289deabb79169c7",
+    "memo": "odds-autopsy:cf3977990dd97f6e"
+  }
+}
