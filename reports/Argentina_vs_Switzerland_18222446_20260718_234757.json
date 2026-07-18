@@ -1,13 +1,13 @@
 {
   "fixture": {
     "fixture_id": 18222446,
-    "name": "Unknown Match 20646",
+    "name": "Argentina vs Switzerland",
     "competition": "World Cup",
     "epoch_day": 20646
   },
   "total_odds_updates": 3793,
   "total_score_updates": 59,
-  "total_shifts_detected": 2063,
+  "total_shifts_detected": 2047,
   "top_20_shifts": [
     {
       "ts": 1783825227623,
@@ -431,8 +431,8 @@
     }
   ],
   "solana": {
-    "signature": "3SRuA7r5LM3rCjoYPU2cYUsnbBpNbFtDRQjLxc31ZNP3yuYYMXxjxxDyLWdMuMtQFA4Vat5AAwXUMuKgEMwoUrHo",
-    "hash": "6768a5354663ebf04980d291c681d0345c79e68337ef542db7a820d76d619e30",
-    "memo": "odds-autopsy:6768a5354663ebf0"
+    "signature": "4WwnposUYJ9b6YcTBFsmriB4uYREpgoPefxdF3feNUqmEQyeRktNsZYewFq7w9kjs98TkVArmxmQFHCLCDkgyqHQ",
+    "hash": "b15113ab58ae8d4e27d5c70366ca201d69b223714e19b749dbd87c7fb0a11e06",
+    "memo": "odds-autopsy:b15113ab58ae8d4e"
   }
 }

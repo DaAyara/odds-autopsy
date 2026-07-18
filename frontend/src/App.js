@@ -74,8 +74,8 @@ function App() {
           const parts = r.replace(".json", "").split("_");
           const raw = parts.slice(0, -3).join(" ");
           const label = raw.replace(/_/g, " ");
-          const datePart = parts[parts.length - 1].replace(".json", "").split("_")[0];
-          const dateLabel = datePart
+          const datePart = parts[parts.length - 2];
+          const dateLabel = datePart && datePart.length === 8
             ? `${datePart.slice(0, 4)}-${datePart.slice(4, 6)}-${datePart.slice(6, 8)}`
             : "";
 
