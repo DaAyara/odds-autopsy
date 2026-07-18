@@ -44,6 +44,7 @@ KNOWN_FIXTURES = {
     18237038: {'name': 'France vs Spain', 'epoch_day': 20648},
     18241006: {'name': 'England vs Argentina', 'epoch_day': 20649},
     18257865: {'name': 'France vs England', 'epoch_day': 20652},
+    18257739: {'name': 'Spain vs Argentina', 'epoch_day': 20653},
 }
 
 def get_reported_ids():
